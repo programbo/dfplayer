@@ -1,0 +1,28 @@
+{
+  "name": "dfplayer",
+  "version": "1.0.0",
+  "description": "Espruino controller for DFRobot's DFPlayer module",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "tsc --noImplicitUseStrict -w index.ts",
+    "build": "tsc --noImplicitUseStrict index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/programbo/dfplayer.git"
+  },
+  "keywords": [
+    "espruino",
+    "dfplayer"
+  ],
+  "author": "John Lombardo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/programbo/dfplayer/issues"
+  },
+  "homepage": "https://github.com/programbo/dfplayer#readme",
+  "devDependencies": {
+    "@types/espruino": "^1.94.3",
+    "typescript": "^3.7.4"
+  }
+}
